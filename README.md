@@ -16,8 +16,20 @@ Alternately, run command
 to print the data in XML format.
 
 ####NOTE:
-The conversion option required use of Math::Trig and Math::Libraries, which are native on Mac.
-However need to be installed on Linux/Unix.  If this is an issue, instead run 
+The conversion option required use of Math::Trig and Math::Round module, which are native on Mac.
+However need to be installed on Linux/Unix.  
+
+To install Math::Trig and Math::Round modules, use cpan:
+        ```
+        cpan Math::Trig
+        ```
+and 
+         ```
+        cpan Math::Round
+        ```
+
+
+If this is an issue, instead run 
         ```
         perl converterBackup.pl kerbal.csv json
         ```
