@@ -1,7 +1,7 @@
 # Interview_Project
 Print csv file, with header line of fields and other lines of objects, in JSON array format
 
-###Running instructions
+### Running instructions
         
 In Interview_Project directory, run command: 
         ```
@@ -15,7 +15,7 @@ Alternately, run command
         ```
 to print the data in XML format.
 
-####NOTE:
+### NOTE:
 The conversion option required use of Math::Trig and Math::Round module, which are native on Mac.
 However need to be installed on Linux/Unix.  
 
